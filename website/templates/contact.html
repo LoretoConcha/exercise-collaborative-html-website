@@ -1,2 +1,48 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <section id="contact" class="container-fluid py-5">
+
+        <h2>Contact</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laborum iusto! Corrupti accusantium
+            consectetur dignissimos voluptatibus. Dolores nostrum modi, quaerat corporis nobis, minus iusto qui
+            velit labore animi consequatur maiores.
+        </p>
+        <div class="border rounded p-3 bg-light mx-auto" style="max-width: 700px;">
+      <form>
+        <div class="row mb-3 align-items-center">
+          <label for="email" class="col-sm-2 col-form-label fw-bold">Your E-mail</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Your email">
+          </div>
+        </div>
+        <div class="row mb-3 align-items-start">
+          <label for="message" class="col-sm-2 col-form-label fw-bold">Your message</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" id="message" rows="4" placeholder="Please enter your message here..."></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-sm-2 col-sm-10 text-end">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    </section>
+
+</body>
+
+</html>
